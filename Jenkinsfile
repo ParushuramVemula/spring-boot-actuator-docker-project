@@ -1,6 +1,6 @@
 pipeline{
     agent{
-        label "jenkinsslave1"
+        label "jenkinsSlave1"
     }
     stages{
         stage("checkout code from git repo"){
